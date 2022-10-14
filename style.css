@@ -1,0 +1,41 @@
+body{
+    background-color: #282828;
+    color:white;
+}
+.tartalom{
+    width: 80%;
+    max-width: 800px;
+    margin:auto;
+}
+.egesz{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.tartalom h1{
+    text-align: center;
+}
+img{
+    width: 150px;
+    margin: auto;
+}
+.egesz h3{
+    text-align: center;
+}
+.menu{
+    font-weight: bold;
+}
+.menu ul{   
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.info{
+    border-right: 1px solid red;
+}
+.info ul{
+    list-style-type: armenian;
+}
