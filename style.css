@@ -2,23 +2,24 @@ body{
     background-color: #282828;
     color:white;
 }
-.tartalom{
+.container{
     width: 80%;
     max-width: 800px;
     margin:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.egesz{
+.tartalom{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.tartalom h1{
+.container h1{
     text-align: center;
 }
 img{
     width: 150px;
     margin: auto;
 }
-.egesz h3{
+.tartalom h3{
     text-align: center;
 }
 .menu{
@@ -32,10 +33,56 @@ img{
 .menu a{
     text-decoration: none;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .info{
-    border-right: 1px solid red;
+    border-right: 2px solid red;
 }
-.info ul{
-    list-style-type: armenian;
+.info2{
+    border-right: 2px solid red;
+}
+.torol{
+    clear: both;
+}
+.tartalom2{
+    margin:auto;
+}
+.tartalom2 h1{
+    border-bottom: 2px solid red;
+    text-align: left;
+    font-weight: bold;
+}
+.abra{
+    float: right;
+    width: 300px;
+}
+.tartalom2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.szoftver{
+    margin-right: 20px;
+}
+.kep{
+    margin-left: 20px;
+}
+.tartalom3 h1{
+    margin-top: 50px;
+    border-bottom: 2px solid red;
+    margin: auto;
+    text-align: center;
+}
+.kollegak{
+    text-align: center;
+}
+.emberek img{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+.emberek{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 25px;
+    text-align: center;
 }
